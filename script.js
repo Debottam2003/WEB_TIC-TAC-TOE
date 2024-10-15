@@ -82,6 +82,7 @@ function showwinner(char){
 function showDraw() {
   let result = document.querySelector('.result');
   result.innerText = "It's a draw!";
+  console.log("It's a draw");
   result.style.display = 'block';
 }
 
