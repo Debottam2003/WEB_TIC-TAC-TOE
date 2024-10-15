@@ -1,3 +1,7 @@
+let reset = document.querySelector('.but');
+reset.addEventListener('click',()=>{
+     window.location.reload();
+});
 let arr = [
     [1, 2, 3], // Top row
     [4, 5, 6], // Middle row
