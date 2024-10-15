@@ -1,6 +1,6 @@
 let reset = document.querySelector('.but');
 reset.addEventListener('click',()=>{
-     window.location.reload(1);
+     location.reload();
 });
 let arr = [
     [1, 2, 3], // Top row
